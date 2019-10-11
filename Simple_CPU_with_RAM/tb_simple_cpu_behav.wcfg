@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_simple_cpu_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_simple_cpu" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="121500001fs"></ZoomEndTime>
+      <Cursor1Time time="120000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="223"></NameColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/tb_simple_cpu/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/control_unit/st_pre" type="other">
+      <obj_property name="ElementShortName">st_pre</obj_property>
+      <obj_property name="ObjectShortName">st_pre</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/control_unit/st_nxt" type="other">
+      <obj_property name="ElementShortName">st_nxt</obj_property>
+      <obj_property name="ObjectShortName">st_nxt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/control_unit/addr_bus" type="array">
+      <obj_property name="ElementShortName">addr_bus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_bus[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/control_unit/CPU_input_data_bus" type="array">
+      <obj_property name="ElementShortName">CPU_input_data_bus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_input_data_bus[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/control_unit/CPU_output_data_bus" type="array">
+      <obj_property name="ElementShortName">CPU_output_data_bus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_output_data_bus[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/output_bus" type="array">
+      <obj_property name="ElementShortName">output_bus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">output_bus[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/control_unit/pc_pre" type="array">
+      <obj_property name="ElementShortName">pc_pre[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_pre[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/control_unit/pc_nxt" type="array">
+      <obj_property name="ElementShortName">pc_nxt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_nxt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/control_unit/ir_pre" type="array">
+      <obj_property name="ElementShortName">ir_pre[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ir_pre[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/control_unit/ir_nxt" type="array">
+      <obj_property name="ElementShortName">ir_nxt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ir_nxt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/control_unit/r_pre" type="array">
+      <obj_property name="ElementShortName">r_pre[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_pre[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/control_unit/r_nxt" type="array">
+      <obj_property name="ElementShortName">r_nxt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_nxt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/control_unit/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/ram_unit/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/ram_unit/addr_bus" type="array">
+      <obj_property name="ElementShortName">addr_bus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_bus[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/ram_unit/RAM_data_input_bus" type="array">
+      <obj_property name="ElementShortName">RAM_data_input_bus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_data_input_bus[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/ram_unit/RAM_data_output_bus" type="array">
+      <obj_property name="ElementShortName">RAM_data_output_bus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_data_output_bus[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/ram_unit/RAM" type="array">
+      <obj_property name="ElementShortName">RAM[0:255][7:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM[0:255][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simple_cpu/uut/ram_unit/data" type="other">
+      <obj_property name="ElementShortName">data</obj_property>
+      <obj_property name="ObjectShortName">data</obj_property>
+   </wvobject>
+</wave_config>
