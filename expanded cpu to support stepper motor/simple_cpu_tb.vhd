@@ -103,8 +103,8 @@ stim: process
         rst <= '0';
         CPU_input_data_bus  <= "11100000"; --move
         wait for clk_period;
-        CPU_input_data_bus  <= "00000110"; --7 moves
-        wait for clk_period*400;
+        CPU_input_data_bus  <= "00001000"; --8 moves
+        wait for clk_period*600;
 end process;
     
 end ;
