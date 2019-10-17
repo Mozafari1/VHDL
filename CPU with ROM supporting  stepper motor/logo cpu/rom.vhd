@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
 -- Company: 
--- Engineer: JOHN ARILD, KIRISAN & RAHMAT
+-- Engineer: KIRISAN & RAHMAT
 -- 
 -- Create Date: 15.10.2019 22:38:16
 -- Design Name: 
