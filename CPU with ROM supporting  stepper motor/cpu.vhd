@@ -258,8 +258,7 @@ begin
 				sdc_nxt <= sdc_pre-1;
 				if (sdc_pre=0) then
 					nsc_nxt <= nsc_pre-1;
-               --     sdc_nxt <= "000001111010000100011111"; -- 499999Decimal
-			        sdc_nxt <= "000010011100010000000000"; --640000
+			       		sdc_nxt <= "000010011100010000000000"; --640000
 					st_nxt <= move_2;
 				end if;
 			end if;
