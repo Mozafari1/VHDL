@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
 -- Company: 
--- Engineer: JOHN ARILD, KIRISAN & RAHMAT
+-- Engineer:  KIRISAN & RAHMAT
 -- 
 -- Create Date: 15.10.2019 22:38:16
 -- Design Name: 
@@ -259,7 +259,7 @@ begin
 				if (sdc_pre=0) then
 					nsc_nxt <= nsc_pre-1;
 			        sdc_nxt <= "000010011100010000000000"; --640000
-					st_nxt <= move_2;
+					st_nxt <= move_3;
 				end if;
 			end if;
 		
